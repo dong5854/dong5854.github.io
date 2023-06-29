@@ -1,9 +1,7 @@
-import NavigationTabs from "../components/NavigationTabs";
-
 function Home() {
     return (
         <>
-            <NavigationTabs></NavigationTabs>
+        <h1>홈</h1>
         </>
     )
 }
