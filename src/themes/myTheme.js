@@ -7,7 +7,7 @@ const myTheme = createTheme({
             main: '#30694B',
             dark: '#0C3823',
             contrastText: '#fff',
-          },
+        },
     }
 });
 
