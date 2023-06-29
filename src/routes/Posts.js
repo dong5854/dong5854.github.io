@@ -1,7 +1,7 @@
 function Posts() {
   return (
       <>
-      <h1>홈</h1>
+      <h1>포스트</h1>
       </>
   )
 }
