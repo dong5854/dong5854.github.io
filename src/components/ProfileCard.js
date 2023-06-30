@@ -4,7 +4,7 @@ import { Toolbar } from "@mui/material";
 import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
 
-function Profile() {
+function ProfileCard() {
   return (
     <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
       <Toolbar disableGutters>
@@ -22,4 +22,4 @@ function Profile() {
     </Box>
   );
 }
-export default Profile;
+export default ProfileCard;
