@@ -4,8 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { useNavigate } from 'react-router-dom';
 
-function NavigationTabs() {
-  const [value, setValue] = React.useState(0);
+function NavigationTabs({value, setValue}) {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -15,7 +14,7 @@ function NavigationTabs() {
 
   return (
     <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-      <Tabs value={value} onChange={handleChange} centered>
+      <Tabs value={value === -1 ? false : value} onChange={handleChange} centered>
         <Tab label="프로필" onClick={() => navigate('/profile')}/>
         <Tab label="포스트" onClick={() => navigate('/posts')}/>
       </Tabs>
