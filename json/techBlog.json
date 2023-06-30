@@ -1,0 +1,54 @@
+[
+  {
+    "blogName" : "네이버 기술블로그",
+    "url" : "https://d2.naver.com/home"
+  },
+  {
+    "blogName" : "카카오 기술블로그",
+    "url" : "https://tech.kakao.com/blog/"
+  },
+  {
+    "blogName" : "라인 기술블로그",
+    "url" : "https://engineering.linecorp.com/ko"
+  },
+  {
+    "blogName" : "우아한 형제들 기술블로그",
+    "url" : "https://techblog.woowahan.com/"
+  },
+  {
+    "blogName" : "당근마켓 기술블로그",
+    "url" : "https://medium.com/daangn"
+  },
+  {
+    "blogName" : "토스 기술블로그",
+    "url" : "https://toss.tech/"
+  },
+  {
+    "blogName" : "직방 기술블로그",
+    "url" : "https://medium.com/zigbang"
+  },
+  {
+    "blogName" : "야놀자 기술블로그",
+    "url" : "https://yanolja.github.io/"
+  },
+  {
+    "blogName" : "마켓컬리 기술블로그",
+    "url" : "https://helloworld.kurly.com/"
+  },
+  {
+    "blogName" : "왓챠 기술블로그",
+    "url" : "https://medium.com/watcha"
+  },
+  {
+    "blogName" : "뱅크샐러드 기술블로그",
+    "url" : "https://blog.banksalad.com/tech/"
+  },
+  {
+    "blogName" : "무신사 기술블로그",
+    "url" : "https://medium.com/musinsa-tech"
+  },
+  {
+    "blogName" : "구글 기술블로그",
+    "url" : "https://developers.googleblog.com/"
+  }
+]
