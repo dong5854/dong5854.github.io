@@ -13,7 +13,7 @@ function NavigationTabs() {
   return (
     <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
       <Tabs value={value} onChange={handleChange} centered>
-        <Tab label="홈" />
+        <Tab label="프로필" />
         <Tab label="포스트" />
       </Tabs>
     </Box>
