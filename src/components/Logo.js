@@ -3,7 +3,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-function Logo({navigate, setValue}) {
+function Logo({navigate}) {
   return (
     <Box
         component="div"
@@ -11,7 +11,6 @@ function Logo({navigate, setValue}) {
         alignItems="center"
         sx={{ cursor: 'pointer' }}
         onClick={() => {
-          setValue(-1);
           navigate('/');
         }}
     >
