@@ -10,6 +10,7 @@ import ProfileCard from "components/ProfileCard";
 import Profile from "routes/Profile";
 import Posts from "routes/Posts";
 import NavigationBar from "components/NavigationBar";
+import NewsSites from "components/NewsSites";
 import { Grid } from "@mui/material";
 
 function App() {
@@ -27,10 +28,9 @@ function App() {
 									<Route path="/profile" element={<Profile/>}/>
 									<Route path="/Posts" element={<Posts/>}/>
 								</Routes>
-							
 						</Grid>
 					<Grid item xs={2} md={2} lg={2}>
-						<div>오른쪽은 세부카테고리가 있는 네비게이션을 넣을 예정</div>
+						<NewsSites/>
 					</Grid>
 				</Grid>
 			</Router>
