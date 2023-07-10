@@ -17,10 +17,9 @@ function App() {
 		<ThemeProvider theme={myTheme}>
 			<Router>
 				<NavigationBar />
-				<ProfileCard/>
 				<Grid container>
 					<Grid item xs={2} md={2} lg={2}>
-						<div>프로필을 왼쪽으로 뺄까 고민중</div>
+						<ProfileCard/>
 					</Grid>
 						<Grid item xs={8} md={8} lg={8}>
 								<Routes>
