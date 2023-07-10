@@ -43,6 +43,7 @@ function NewsSites() {
           return (
             <>
               <div key={i}>
+                <img src={`http://www.google.com/s2/favicons?domain=${blog.url}`} alt={blog.blogName} width="20" height="20"/>
                 <a target="_blank" rel="noopener noreferrer" href={blog.url}>{blog.blogName}</a>
               </div>
             </>
@@ -55,6 +56,7 @@ function NewsSites() {
           return (
             <>
               <div key={i}>
+                <img src={`http://www.google.com/s2/favicons?domain=${site.url}`} alt={site.siteName} width="20" height="20"/>
                 <a target="_blank" rel="noopener noreferrer" href={site.url}>{site.siteName}</a>
               </div>
             </>
