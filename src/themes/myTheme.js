@@ -12,6 +12,12 @@ const myTheme = createTheme({
             main: '#F2F2F2',
             dark: '#97C1A9', 
             contrastText: '#333e4c',
+        },
+        linkButton : {
+            main: '#F2F2F2',
+            light: '#F2F2F2',
+            dark: '	#013220',
+            contrastText: '#333e4c',
         }
     }
 });
